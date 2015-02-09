@@ -32,8 +32,10 @@ For more information of the Snowy Mountains Hydro Electric Scheme and Snowy Hydr
 Access the demo [http://drewfore.github.io/snowvis](http://drewfore.github.io/snowvis).
 
 How to:
+
 1. Scroll through available snowdays by pressing the "Next" or "Back" buttons or using the 
    forward and back buttons on the keyboard.	
+
 2. Animate the season by clicking on the "Play" button. This will scroll through each day 
    classified in the season at 2 second intervals. Press "Pause" to stop on any day or "Reset" 
    to go back to the first day in the season.
@@ -41,7 +43,7 @@ How to:
 
 ## Features
 
-Not yet mobile phone friendly, but should be responsive enough for desktop, laptops and tablets. On a mobile the map will be hidden and only stats shown at this stage.
+Not yet mobile phone friendly with a map, but is still usable across all devices. At this stage on a mobile you will still see the date, stats and be able to select a season. In the future it will be nice to still scroll through the days with a map interface front and centre.
 
 
 ## FYI
