@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Snow cover</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
+        <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet'/>        
+        <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,500,700' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div id="left" class="center">
+            <p>Snow cover</p>
+            <p id="title"></p>
+            <p id="area"></p>
+            <div id="controls">
+                <div id="back" class="button noSelect">Back</div>
+                <div id="next" class="button noSelect">Next</div>
+                <p>              
+                    <div id="season" class="wide button noSelect">Change Season</div>  
+                </p>
+                <div id="showSeason">
+                    <div id="2012" class="bottom wide button noSelect">2012</div>
+                    <div id="2013" class="bottom wide button noSelect">2013</div>
+                    <div id="2014" class="wide button noSelect active">2014</div>
+                </div>
+                <div id="tips" class="lightWeight smallerText noSelect">
+                    <p>If you have a keyboard you can scroll through the days with the forward and back arrows.</p>
+                    <p>
+                        The snowcovered areas have been classified from images captured by the MODIS instrument on board the Terra (EOS AM) satellite. A method called the Normalised Difference Snow Index (NDSI) was used to delineate snow covered areas which were then clipped to the Snowy Water Catchment.
+                    </p>
+                    <p>
+                        The NDSI algorithm and subsequent geoprocessing was automated in a QGIS processing toolbox model - a case study regarding this can be found <a target="_blank" href="https://docs.google.com/document/d/1Pg4WdYmAD-UT0NiYjBNyt_OpsZ0ugf6VXHW0mY7eBwA/edit?usp=sharing">here</a> and the QGIS processing model can be found on <a target="_blank" href="https://github.com/Drewfore/NDSI">GitHUB</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="map"></div>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/snow_2012.js"></script>
+        <script src="js/snow_2013.js"></script>
+        <script src="js/snow_2014.js"></script>        
+        <script src="js/main.js"></script>
+    </body>
+</html>
