@@ -52,4 +52,4 @@ These snow covered areas are estimates derived from the best available informati
 They are by no means an exact representation of the snow cover at any point during the 
 season, and have been derived entirely for purposes used by Snowy Hydro Limited. Feel 
 free to view and share this information but be aware that Snowy Hydro Limited takes no 
-responsibiliy for the accuracy, completeness or quality of this data.
+responsibiliy for the accuracy, completeness or quality of this data..
